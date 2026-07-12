@@ -29,8 +29,11 @@ body {
 	border: none;
 	outline: none;
 	appearance: none;
-	background-color: transparent;
-	color: white;
+	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(8px);
+	color: #fff;
+	padding: 10px;
+	border-radius: 8px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
@@ -40,8 +43,13 @@ body {
 	line-height: 18px;
 }
 
-.language-switcher:hover .language-switcher__icon {
-	filter: brightness(0.8);
+.language-switcher:hover {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+.language-switcher:active {
+	background-color: rgba(0, 0, 0, 0.9);
+}
 }
 
 .container {
