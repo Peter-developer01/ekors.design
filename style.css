@@ -16,6 +16,28 @@ body {
 	display: none;
 }
 
+.language-switcher {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border: none;
+	outline: none;
+	appearance: none;
+	background-color: transparent;
+	color: white;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	font-size: 18px;
+	line-height: 18px;
+}
+
+.language-switcher:hover .language-switcher__icon {
+	filter: brightness(0.8);
+}
+
 .container {
 	max-width: 1200px;
 	margin: 0 auto;

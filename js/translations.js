@@ -74,3 +74,9 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 	console.error("Translation error:", error);
 	document.body.classList.remove("translating");
 });
+
+const languageSwitcher = document.querySelector(".language-switcher");
+languageSwitcher.addEventListener("click", () => {
+	i18next.changeLanguage(i18next.language === "en" ? "ru" : "en");
+	translateAll();
+});
