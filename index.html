@@ -4,9 +4,44 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Ekors Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body class="translating">
-	<h1 data-i18n="hello-world">Hello, World</h1>
+	<section class="hero" id="hero">
+		<header class="header" role="banner">
+			<img src="images/logo.svg" alt="logo" class="logo">
+			<nav class="navbar">
+				<ul class="navbar__menu">
+					<li class="navbar__menu-item">
+						<a href="#hero" class="navbar__menu-link" data-i18n="home">Главная</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="#about" class="navbar__menu-link" data-i18n="about">Обо мне</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="#project-creation" class="navbar__menu-link" data-i18n="project-creation">Как создается дизайн-проект</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="#projects" class="navbar__menu-link" data-i18n="portfolio-of-objects">Портфолио объектов</a>
+					</li>
+					<li class="navbar__menu-item">
+						<a href="#contacts" class="navbar__menu-link" data-i18n="contacts">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div class="container hero__container">
+			<p class="hero__tagline">
+				<span data-i18n="tagline-part1">Интерьер,</span>
+				<span data-i18n="tagline-part2">в котором</span>
+				<span data-i18n="tagline-part3">хочется остаться</span>
+			</p>
+		</div>
+	</section>
+
 	<script src="https://cdn.jsdelivr.net/npm/i18next@latest/dist/umd/i18next.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@latest/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
 	<script src="js/translations.js"></script>
