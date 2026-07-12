@@ -115,3 +115,27 @@ body {
 	font-family: Berold;
 	line-height: 100px;
 }
+
+.about__container {
+	padding-top: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 25px;
+}
+
+.about__image {
+	filter: brightness(0.7);
+}
+
+.about__text {
+	padding: 20px;
+	height: 600px;
+	width: 500px;
+	background-color: #dbdbdb;
+}
+
+.about__image,
+.about__text {
+	border-radius: 10px;
+}
