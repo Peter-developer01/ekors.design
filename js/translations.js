@@ -38,7 +38,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 			translation: {
 				"language-switcher": "EN",
 				"home": "Home",
-				"about": "About",
+				"about-me": "About me",
 				"project-creation": "How a design project is created",
 				"portfolio-of-objects": "Portfolio of objects",
 				"contacts": "Contacts",
@@ -53,7 +53,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 			translation: {
 				"language-switcher": "RU",
 				"home": "Главная",
-				"about": "Обо мне",
+				"about-me": "Обо мне",
 				"project-creation": "Как создается дизайн-проект",
 				"portfolio-of-objects": "Портфолио объектов",
 				"contacts": "Контакты",
