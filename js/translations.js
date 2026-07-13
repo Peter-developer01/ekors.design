@@ -2,6 +2,7 @@ function translateElement(element) {
 	const key = element.dataset.i18n;
 	if (!i18next.exists(key)) {
 		console.error("Translation key", key, "not found for element", element);
+		return;
 	}
 	element.textContent = i18next.t(element.dataset.i18n);
 }
