@@ -237,3 +237,57 @@ body {
 .project-creation__step:first-of-type .accordion__title {
 	margin-top: 0;
 }
+
+.portfolio__cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio__card {
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+	width: 400px;
+	height: 300px;
+}
+
+.portfolio__card-image {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	
+}
+
+.portfolio__card-description {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(10px);
+	color: #ffffff;
+	padding: 10px;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+	padding: 15px;
+}
+
+.portfolio__card-title {
+	font-weight: 500;
+	margin: 0;
+	font-size: 17px;
+}
+
+.portfolio__card-text {
+	margin: 0;
+	height: 25px;
+	font-size: 15px;
+}
