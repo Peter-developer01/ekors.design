@@ -232,6 +232,7 @@ body {
 	white-space: pre-line;
 	line-height: 1.5;
 	margin: 0;
+	margin-top: 10px;
 }
 
 .project-creation__step:first-of-type .accordion__title {
