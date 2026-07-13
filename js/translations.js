@@ -54,7 +54,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 				"language-switcher": "RU",
 				"home": "Главная",
 				"about-me": "Обо мне",
-				"project-creation": "Как создается дизайн-проект",
+				"project-creation": "Как создаётся дизайн-проект",
 				"portfolio-of-objects": "Портфолио объектов",
 				"contacts": "Контакты",
 				"tagline-part1": "Интерьер,",
