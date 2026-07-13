@@ -88,6 +88,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 				"portfolio-card11-address": "LCD Trinity",
 				"portfolio-card12-address": "SNT \"Zarya\"",
 				"portfolio-card13-address": "Moscow",
+				"contact-address": "Moscow, Moscow Oblast",
 			}
 		},
 		ru: {
@@ -143,6 +144,7 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 				"portfolio-card11-address": "ЖК Тринити",
 				"portfolio-card12-address": "СНТ «Заря»",
 				"portfolio-card13-address": "г. Москва",
+				"contact-address": "Москва, МО"
 			}
 		}
 	}

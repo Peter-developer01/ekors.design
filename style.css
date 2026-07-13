@@ -292,3 +292,33 @@ body {
 	height: 25px;
 	font-size: 15px;
 }
+
+.contacts__grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	justify-items: center;
+}
+
+.contacts__grid-item:last-child {
+	grid-column: 1 / -1;
+	justify-self: center;
+}
+
+.contacts__grid-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.contacts__grid-link {
+	text-decoration: none;
+}
+
+.contacts__grid-link:hover {
+	text-decoration: underline;
+	color: #a87d2c;
+}
