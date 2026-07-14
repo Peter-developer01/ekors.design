@@ -18,22 +18,13 @@ html,
 body {
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
-	font-family: Comfortaa, sans-serif;
-	font-weight: 300;
+	font-size: 22px;
+	font-family: "Cormorant Infant", sans-serif;
+	font-weight: 100;
 	color: #fff;
-}
-
-body::before {
-	content: "";
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-image: linear-gradient(to top, #2d2518, #2d2518e7);
+	background: #2d2518 url("../images/temp-bg.png") repeat center center;
+	background-size: cover;
 	background-attachment: fixed;
-	z-index: -1;
 }
 
 .translating {
@@ -84,7 +75,6 @@ body::before {
 	gap: 10px;
 	align-items: center;
 	background-color: #bbb;
-	border: 5px solid #333;
 	border-radius: 50px;
 	padding: 10px 15px;
 	transition: all 0.1s;
@@ -107,15 +97,15 @@ body::before {
 .accordion__content {
 	max-height: 0;
 	overflow: hidden;
-	transition: max-height 0.2s ease-out;
+	transition: max-height 0.1s ease-out;
 	padding: 0 15px;
 	margin-top: 10px;
 	color: #ddd;
-	will-change: max-height, background-image;
+	will-change: max-height;
 }
 
 .accordion_active .accordion__content {
-	transition: max-height 0.2s ease-in;
+	transition: max-height 0.1s ease-in;
 }
 
 .accordion_active .accordion__chevron {
@@ -157,7 +147,7 @@ body::before {
 .hero__tagline-line {
 	width: 100%;
 	flex: 1;
-	height: 3px;
+	height: 1px;
 	background-color: #ffffff;
 }
 
@@ -178,6 +168,7 @@ body::before {
 	line-height: 1;
 	flex-shrink: 0;
 	font-family: "STIX Two Math";
+	font-weight: 100;
 }
 
 .container {
@@ -388,7 +379,7 @@ body::before {
 	align-content: center;
 }
 
-.contacts__grid-item:last-child {
+.contacts__grid-item:first-child {
 	grid-column: 1 / -1;
 	justify-self: center;
 }
@@ -420,7 +411,10 @@ body::before {
 
 .contacts__location {
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
 }
 
 .footer {
@@ -447,11 +441,11 @@ body::before {
 	font-size: 12px;
 	font-family: Roboto;
 	align-self: flex-end;
+	font-weight: 300;
 }
 
 .footer__developer-link {
-	/* text-decoration: none; */
-	color: #dbb265;
+	color: #ecc16f;
 }
 
 .footer__developer-link:hover {
