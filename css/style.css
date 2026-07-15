@@ -1,11 +1,11 @@
 @font-face {
 	font-family: "Berold";
-	src: url(fonts/Berold.otf) format("opentype");
+	src: url(../fonts/Berold.otf) format("opentype");
 }
 
 @font-face {
 	font-family: "Kudry";
-	src: url(fonts/kudry_weird-headline.otf) format("opentype");
+	src: url(../fonts/kudry_weird-headline.otf) format("opentype");
 }
 
 *,
@@ -20,11 +20,12 @@ body {
 	padding: 0;
 	font-size: 22px;
 	font-family: "Cormorant Infant", sans-serif;
-	font-weight: 100;
+	font-weight: 400;
 	color: #fff;
 	background: #2d2518 url("../images/temp-bg.png") repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
+	scroll-behavior: smooth;
 }
 
 .translating {
@@ -50,6 +51,7 @@ body {
 	gap: 10px;
 	font-size: 18px;
 	line-height: 18px;
+	z-index: 99;
 }
 
 .language-switcher:hover {
@@ -123,7 +125,6 @@ body {
 }
 
 .section__title {
-	font-weight: 500;
 	margin: 0;
 	margin-bottom: 0px;
 	font-size: 50px;
@@ -197,6 +198,10 @@ body {
 	align-items: center;
 	backdrop-filter: blur(15px);
 	padding-top: 50px;
+}
+
+.header__hamburger {
+	display: none;
 }
 
 .navbar {
@@ -296,6 +301,7 @@ body {
 	flex-direction: column;
 	gap: 20px;
 	list-style-type: none;
+	padding: 0;
 }
 
 .project-creation__step-title {
@@ -359,13 +365,13 @@ body {
 .portfolio__card-title {
 	font-weight: 500;
 	margin: 0;
-	font-size: 17px;
+	font-size: 20px;
 }
 
 .portfolio__card-text {
 	margin: 0;
 	height: 25px;
-	font-size: 15px;
+	font-size: 18px;
 }
 
 .contacts__grid {
@@ -384,7 +390,7 @@ body {
 	justify-self: center;
 }
 
-.contacts__grid-item {
+.contacts__grid-item:not(.contacts__socials) {
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -402,6 +408,13 @@ body {
 
 .contacts__grid-link:active {
 	filter: brightness(0.8);
+}
+
+.contacts__social {
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .contacts__social-icon {

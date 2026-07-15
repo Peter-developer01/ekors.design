@@ -6,14 +6,39 @@
 	<title>Ekors Design</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=STIX+Two+Math&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Cormorant+Infant:ital,wght@0,300..700;1,300..700&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=STIX+Two+Math&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/adaptive.css">
 	<link rel="shortcut icon" href="images/logo.svg" type="image/svg+xml">
 </head>
 <body class="translating">
+	<nav class="navbar navbar_mobile">
+		<ul class="navbar__menu">
+			<li class="navbar__menu-item">
+				<a href="#hero" class="navbar__menu-link" data-i18n="home">Главная</a>
+			</li>
+			<li class="navbar__menu-item">
+				<a href="#about" class="navbar__menu-link" data-i18n="about-me">Обо мне</a>
+			</li>
+			<li class="navbar__menu-item">
+				<a href="#project-creation" class="navbar__menu-link" data-i18n="project-creation">Как создаётся дизайн-проект</a>
+			</li>
+			<li class="navbar__menu-item">
+				<a href="#portfolio" class="navbar__menu-link" data-i18n="portfolio-of-objects">Портфолио объектов</a>
+			</li>
+			<li class="navbar__menu-item">
+				<a href="#contacts" class="navbar__menu-link" data-i18n="contacts">Контакты</a>
+			</li>
+		</ul>
+	</nav>
 	<section class="section hero" id="hero">
 		<header class="header" role="banner">
 			<img src="images/logo.svg" alt="logo" class="logo">
+			<span class="header__hamburger">
+				<span class="header__hamburger-line"></span>
+				<span class="header__hamburger-line"></span>
+				<span class="header__hamburger-line"></span>
+			</span>
 			<nav class="navbar">
 				<ul class="navbar__menu">
 					<li class="navbar__menu-item">
