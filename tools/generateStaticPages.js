@@ -64,8 +64,8 @@ function insertHeadTags(document, project) {
 
 	const links = [
 		["stylesheet", "https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"],
-		["stylesheet", "/css/translations.css"],
-		["stylesheet", "/css/project.css"],
+		["stylesheet", "../../css/translations.css"],
+		["stylesheet", "../../css/project.css"],
 		["shortcut icon", "/images/logo.svg"],
 	];
 
