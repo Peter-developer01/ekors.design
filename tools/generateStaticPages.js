@@ -137,8 +137,8 @@ function insertBodyTags(document, project) {
 		"https://cdn.jsdelivr.net/npm/i18next@latest/dist/umd/i18next.min.js",
 		"https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector@latest/dist/umd/i18nextBrowserLanguageDetector.min.js",
 		"https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js",
-		"/js/translations.js",
-		"/js/project.js"
+		"../../js/translations.js",
+		"../../js/project.js"
 	];
 
 	for (let i = 0; i < scripts.length; i++) {
@@ -212,10 +212,10 @@ function insertImages(root, container, images, liClassName) {
 		}
 
 		const anchor = document.createElement("a");
-		anchor.setAttribute("href", `${root}/${images[i]}`);
+		anchor.setAttribute("href", `../../${root}/${images[i]}`);
 		anchor.setAttribute("class", "image-link");
 		const image = document.createElement("img");
-		image.setAttribute("src", `${root}/${images[i]}`);
+		image.setAttribute("src", `../../${root}/${images[i]}`);
 		image.setAttribute("alt", "рендер");
 		image.setAttribute("class", "image");
 		image.setAttribute("loading", "lazy");
@@ -227,7 +227,6 @@ function insertImages(root, container, images, liClassName) {
 }
 
 function imageExists(root, image) {
-	let path = `${root}/${image}`;
-	if (path.startsWith("/")) path = "../" + path.slice(1);
+	let path = `../${root}/${image}`;
 	return fs.existsSync(path);
 }
