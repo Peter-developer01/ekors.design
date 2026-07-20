@@ -2,6 +2,14 @@
 	.navbar {
 		padding: 30px;
 	}
+
+	.hero__tagline-decorated {
+		font-size: 80px;
+	}
+
+	.hero__tagline-small {
+		font-size: 30px;
+	}
 }
 
 @media (max-width: 1020px) {

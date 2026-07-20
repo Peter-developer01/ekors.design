@@ -46,6 +46,10 @@
 	margin-bottom: 40px;
 }
 
+.image-group__title {
+	/* cursive gray */
+}
+
 .image-list {
 	list-style-type: none;
 	margin: 0;
