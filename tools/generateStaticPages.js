@@ -81,8 +81,9 @@ function insertHeadTags(document, project) {
 function insertBodyTags(document, project) {
 	const body = document.getElementsByTagName("body")[0];
 	body.setAttribute("class", "translating");
-	const closeButton = document.createElement("button");
+	const closeButton = document.createElement("a");
 	closeButton.setAttribute("class", "close-button");
+	closeButton.setAttribute("href", "../../#portfolio");
 	closeButton.textContent = "×"; // &times;
 	body.appendChild(closeButton);
 	const container = document.createElement("div");

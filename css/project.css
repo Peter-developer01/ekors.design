@@ -9,6 +9,9 @@
 }
 
 .close-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	position: fixed;
 	top: 10px;
 	right: 20px;
@@ -22,6 +25,8 @@
 	font-size: 40px;
 	padding: 0;
 	opacity: 0.5;
+	color: #000;
+	text-decoration: none;
 }
 
 .close-button:hover {
@@ -66,18 +71,6 @@
 	object-position: bottom center;
 	border-radius: 5px;
 }
-
-/*
-container
-page-title
-top-level-group-wrapper
-top-level-group
-top-level-group__title
-image-group
-image-group__title
-image-link
-close-button
-*/
 
 @media (max-width: 1000px) {
 	.container {
