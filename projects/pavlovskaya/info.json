@@ -1,0 +1,75 @@
+{
+	"root": "/projects/pavlovskaya",
+	"title": "Смелая двухкомнатная квартира для мамы с дочкой",
+	"titleI18nKey": "portfolio-card6-title",
+	"address": "Павловская Слобода",
+	"addressI18nKey": "portfolio-card6-address",
+	"previewImage": "/projects/pavlovskaya/bedroom/bedroom-1.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "balcony",
+			"title": "Балкон",
+			"titleI18nKey": "balcony",
+			"images": [
+				"balcony-1.jpeg",
+				"balcony-2.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg",
+				"bedroom-6.jpeg",
+				"bedroom-7.jpeg",
+				"bedroom-8.jpeg",
+				"bedroom-9.jpeg",
+				"bedroom-10.jpeg",
+				"bedroom-11.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg",
+				"hallway-3.jpeg",
+				"hallway-4.jpeg",
+				"hallway-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen",
+			"title": "Кухня",
+			"titleI18nKey": "kitchen",
+			"images": [
+				"kitchen-1.jpeg",
+				"kitchen-2.jpeg",
+				"kitchen-3.jpeg",
+				"kitchen-4.jpeg",
+				"kitchen-5.jpeg",
+				"kitchen-6.jpeg",
+				"kitchen-7.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom",
+			"title": "Детская",
+			"titleI18nKey": "playroom",
+			"images": [
+				"playroom-1.jpeg",
+				"playroom-2.jpeg",
+				"playroom-3.jpeg",
+				"playroom-4.jpeg",
+				"playroom-5.jpeg"
+			]
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"root": "/projects/white-city",
+	"title": "Трёхкомнатная квартира для семьи из 3-х человек с арочными окнами",
+	"titleI18nKey": "portfolio-card5-title",
+	"address": "г. Сергиев Посад",
+	"addressI18nKey": "portfolio-card5-address",
+	"previewImage": "/projects/white-city/living-room/living-room-2.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom-1",
+			"title": "Санузел 1",
+			"titleI18nKey": "bathroom-sanuzel-1",
+			"images": [
+				"bathroom-1-1.jpeg",
+				"bathroom-1-2.jpeg",
+				"bathroom-1-3.jpeg",
+				"bathroom-1-4.jpeg",
+				"bathroom-1-5.jpeg",
+				"bathroom-1-6.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bathroom-2",
+			"title": "Санузел 2",
+			"titleI18nKey": "bathroom-sanuzel-2",
+			"images": [
+				"bathroom-2-1.jpeg",
+				"bathroom-2-2.jpeg",
+				"bathroom-2-3.jpeg",
+				"bathroom-2-4.jpeg",
+				"bathroom-2-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg",
+				"bedroom-6.jpeg",
+				"bedroom-7.jpeg",
+				"bedroom-8.jpeg",
+				"bedroom-9.jpeg"
+			]
+		},
+		{
+			"pathSegment": "dressing-room",
+			"title": "Гардеробная",
+			"titleI18nKey": "dressing-room",
+			"images": [
+				"dressing-room-1.jpeg",
+				"dressing-room-2.jpeg",
+				"dressing-room-3.jpeg",
+				"dressing-room-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg",
+				"hallway-3.jpeg",
+				"hallway-4.jpeg",
+				"hallway-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen",
+			"title": "Кухня",
+			"titleI18nKey": "kitchen",
+			"images": [
+				"kitchen-1.jpeg",
+				"kitchen-2.jpeg",
+				"kitchen-3.jpeg",
+				"kitchen-4.jpeg",
+				"kitchen-5.jpeg",
+				"kitchen-6.jpeg",
+				"kitchen-7.jpeg"
+			]
+		},
+		{
+			"pathSegment": "living-room",
+			"title": "Гостиная",
+			"titleI18nKey": "living-room",
+			"images": [
+				"living-room-1.jpeg",
+				"living-room-2.jpeg",
+				"living-room-3.jpeg",
+				"living-room-4.jpeg",
+				"living-room-5.jpeg",
+				"living-room-6.jpeg",
+				"living-room-7.jpeg",
+				"living-room-8.jpeg"
+			]
+		},
+		{
+			"pathSegment": "nightly-renders",
+			"title": "Вечерние рендеры",
+			"titleI18nKey": "nightly-renders",
+			"images": [
+				"nightly-renders-1.jpeg",
+				"nightly-renders-2.jpeg",
+				"nightly-renders-3.jpeg",
+				"nightly-renders-4.jpeg",
+				"nightly-renders-5.jpeg",
+				"nightly-renders-6.jpeg",
+				"nightly-renders-7.jpeg",
+				"nightly-renders-8.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom",
+			"title": "Детская",
+			"titleI18nKey": "playroom",
+			"images": [
+				"playroom-1.jpeg",
+				"playroom-2.jpeg",
+				"playroom-3.jpeg",
+				"playroom-4.jpeg",
+				"playroom-5.jpeg",
+				"playroom-6.jpeg",
+				"playroom-7.jpeg",
+				"playroom-8.jpeg"
+			]
+		}
+	]
+}

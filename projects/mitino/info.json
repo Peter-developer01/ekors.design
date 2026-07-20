@@ -1,0 +1,56 @@
+{
+	"root": "/projects/mitino",
+	"title": "Четырехкомнатная квартира",
+	"titleI18nKey": "portfolio-card3-title",
+	"address": "ЖК «Life Митинская Ecopark»",
+	"addressI18nKey": "portfolio-card3-address",
+	"previewImage": "/projects/mitino/kitchen-lounge/kitchen-lounge-3.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "corridor",
+			"title": "Коридор",
+			"titleI18nKey": "corridor",
+			"images": [
+				"corridor-1.jpeg",
+				"corridor-2.jpeg",
+				"corridor-3.jpeg",
+				"corridor-4.jpeg",
+				"corridor-5.jpeg",
+				"corridor-6.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen-lounge",
+			"title": "Кухня-гостиная",
+			"titleI18nKey": "kitchen-lounge",
+			"images": [
+				"kitchen-lounge-1.jpeg",
+				"kitchen-lounge-2.jpeg",
+				"kitchen-lounge-3.jpeg",
+				"kitchen-lounge-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom-1",
+			"title": "Детская 1",
+			"titleI18nKey": "playroom-1",
+			"images": [
+				"playroom-1-1.jpeg",
+				"playroom-1-2.jpeg",
+				"playroom-1-3.jpeg",
+				"playroom-1-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom-2",
+			"title": "Детская 2",
+			"titleI18nKey": "playroom-2",
+			"images": [
+				"playroom-2-1.jpeg",
+				"playroom-2-2.jpeg",
+				"playroom-2-3.jpeg",
+				"playroom-2-4.jpeg"
+			]
+		}
+	]
+}

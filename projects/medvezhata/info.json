@@ -1,0 +1,50 @@
+{
+	"root": "/projects/medvezhata",
+	"title": "Одноэтажный гостевой дом",
+	"titleI18nKey": "portfolio-card8-title",
+	"address": "Посёлок Трёхгорка",
+	"addressI18nKey": "portfolio-card8-address",
+	"previewImage": "/projects/medvezhata/kitchen-lounge/kitchen-lounge-1.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom",
+			"title": "Ванная",
+			"titleI18nKey": "bathroom",
+			"images": [
+				"bathroom-1.jpeg",
+				"bathroom-2.jpeg",
+				"bathroom-3.jpeg",
+				"bathroom-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen-lounge",
+			"title": "Кухня-гостиная",
+			"titleI18nKey": "kitchen-lounge",
+			"images": [
+				"kitchen-lounge-1.jpeg",
+				"kitchen-lounge-2.jpeg",
+				"kitchen-lounge-3.jpeg",
+				"kitchen-lounge-4.jpeg",
+				"kitchen-lounge-5.jpeg",
+				"kitchen-lounge-evening-1.jpeg",
+				"kitchen-lounge-evening-2.jpeg",
+				"kitchen-lounge-evening-3.jpeg",
+				"kitchen-lounge-evening-4.jpeg",
+				"kitchen-lounge-evening-5.jpeg"
+			]
+		}
+	]
+}

@@ -1,0 +1,76 @@
+{
+	"root": "/projects/trinity",
+	"title": "Двухкомнатная квартира для семейной пары",
+	"titleI18nKey": "portfolio-card11-title",
+	"address": "ЖК «Тринити»",
+	"addressI18nKey": "portfolio-card11-address",
+	"previewImage": "/projects/trinity/kitchen-lounge/kitchen-lounge-3.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg",
+				"hallway-3.jpeg",
+				"hallway-4.jpeg",
+				"hallway-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen-lounge",
+			"title": "Кухня-гостиная",
+			"titleI18nKey": "kitchen-lounge",
+			"images": [
+				"kitchen-lounge-1.jpeg",
+				"kitchen-lounge-2.jpeg",
+				"kitchen-lounge-3.jpeg",
+				"kitchen-lounge-4.jpeg",
+				"kitchen-lounge-5.jpeg",
+				"kitchen-lounge-6.jpeg",
+				"kitchen-lounge-7.jpeg",
+				"kitchen-lounge-8.jpeg",
+				"kitchen-lounge-9.jpeg"
+			]
+		},
+		{
+			"pathSegment": "nightly",
+			"title": "Вечерние",
+			"titleI18nKey": "nightly",
+			"images": [
+				"nightly-1.jpeg",
+				"nightly-2.jpeg",
+				"nightly-3.jpeg",
+				"nightly-4.jpeg",
+				"nightly-5.jpeg",
+				"nightly-6.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom",
+			"title": "Детская",
+			"titleI18nKey": "playroom",
+			"images": [
+				"playroom-1.jpeg",
+				"playroom-2.jpeg",
+				"playroom-3.jpeg",
+				"playroom-4.jpeg",
+				"playroom-5.jpeg",
+				"playroom-6.jpeg",
+				"playroom-7.jpeg"
+			]
+		}
+	]
+}

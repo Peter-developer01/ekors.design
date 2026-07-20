@@ -17,4 +17,10 @@ document.addEventListener("click", (event) => {
 		document.querySelector(".header__hamburger").classList.remove("header__hamburger_active");
 		mobileNavbarOpen = false;
 	}
+
+	let portfolioCard;
+	if ((portfolioCard = event.target.closest(".portfolio__card"))) {
+		const anchor = portfolioCard.querySelector(".portfolio__card-link");
+		if (anchor) anchor.click();
+	}
 });

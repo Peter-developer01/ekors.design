@@ -1,0 +1,111 @@
+{
+	"root": "/projects/zarya",
+	"title": "Одноэтажный дом для семьи из 3-х человек",
+	"titleI18nKey": "portfolio-card12-title",
+	"address": "СНТ «Заря»",
+	"addressI18nKey": "portfolio-card12-address",
+	"previewImage": "/projects/zarya/kitchen-lounge/kitchen-lounge-7.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom",
+			"title": "Ванная",
+			"titleI18nKey": "bathroom",
+			"images": [
+				"bathroom-1.jpeg",
+				"bathroom-2.jpeg",
+				"bathroom-3.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg",
+				"bedroom-6.jpeg",
+				"bedroom-7.jpeg",
+				"bedroom-8.jpeg",
+				"bedroom-9.jpeg"
+			]
+		},
+		{
+			"pathSegment": "cabinet",
+			"title": "Кабинет",
+			"titleI18nKey": "cabinet",
+			"images": [
+				"cabinet-1.jpeg",
+				"cabinet-2.jpeg",
+				"cabinet-3.jpeg",
+				"cabinet-4.jpeg",
+				"cabinet-5.jpeg",
+				"cabinet-6.jpeg"
+			]
+		},
+		{
+			"pathSegment": "evening",
+			"title": "Вечер",
+			"titleI18nKey": "evening",
+			"images": [
+				"evening-1.jpeg",
+				"evening-2.jpg",
+				"evening-3.jpeg",
+				"evening-4.jpeg",
+				"evening-5.jpeg",
+				"evening-6.jpeg",
+				"evening-7.jpeg",
+				"evening-8.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg",
+				"hallway-3.jpeg",
+				"hallway-4.jpeg",
+				"hallway-5.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen-lounge",
+			"title": "Кухня-гостиная",
+			"titleI18nKey": "kitchen-lounge",
+			"images": [
+				"kitchen-lounge-1.jpeg",
+				"kitchen-lounge-2.jpeg",
+				"kitchen-lounge-3.jpeg",
+				"kitchen-lounge-4.jpeg",
+				"kitchen-lounge-5.jpeg",
+				"kitchen-lounge-6.jpeg",
+				"kitchen-lounge-7.jpeg",
+				"kitchen-lounge-8.jpeg",
+				"kitchen-lounge-9.jpeg"
+			]
+		},
+		{
+			"pathSegment": "terrace",
+			"title": "Терраса",
+			"titleI18nKey": "terrace",
+			"images": [
+				"terrace-1.jpeg",
+				"terrace-2.jpg",
+				"terrace-3.jpeg"
+			]
+		},
+		{
+			"pathSegment": "toilet",
+			"title": "Туалет",
+			"titleI18nKey": "toilet",
+			"images": [
+				"toilet-1.jpeg",
+				"toilet-2.jpeg"
+			]
+		}
+	]
+}

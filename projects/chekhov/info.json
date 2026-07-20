@@ -1,0 +1,142 @@
+{
+	"root": "/projects/chekhov",
+	"title": "Двухэтажный дом для семьи из 6 человек",
+	"titleI18nKey": "portfolio-card2-title",
+	"address": "г. Чехов",
+	"addressI18nKey": "portfolio-card2-address",
+	"previewImage": "/projects/chekhov/floor-1/kitchen-lounge/kitchen-lounge-1.jpeg",
+	"imageParentGroups": [
+		{
+			"pathSegment": "floor-1",
+			"title": "Этаж 1",
+			"titleI18nKey": "floor-1",
+			"imageGroups": [
+				{
+					"pathSegment": "bathroom",
+					"title": "Санузел",
+					"titleI18nKey": "bathroom-sanuzel",
+					"images": [
+						"bathroom-1.jpeg",
+						"bathroom-2.jpeg",
+						"bathroom-3.jpeg",
+						"bathroom-4.jpeg",
+						"bathroom-5.jpeg",
+						"bathroom-night.jpeg"
+					]
+				},
+				{
+					"pathSegment": "grandmother-room",
+					"title": "Бабушкина комната",
+					"titleI18nKey": "grandmother-room",
+					"images": [
+						"grandmother-room-1.jpeg",
+						"grandmother-room-2.jpeg",
+						"grandmother-room-3.jpeg",
+						"grandmother-room-4.jpeg",
+						"grandmother-room-5.jpeg",
+						"grandmother-room-6.jpeg",
+						"grandmother-room-7.jpeg",
+						"grandmother-room-8.jpeg",
+						"grandmother-room-9.jpeg",
+						"grandmother-room-evening.jpeg"
+					]
+				},
+				{
+					"pathSegment": "kitchen-lounge",
+					"title": "Кухня-гостиная",
+					"titleI18nKey": "kitchen-lounge",
+					"images": [
+						"kitchen-lounge-1.jpeg",
+						"kitchen-lounge-2.jpeg",
+						"kitchen-lounge-3.jpeg",
+						"kitchen-lounge-4.jpeg",
+						"kitchen-lounge-5.jpeg",
+						"kitchen-lounge-6.jpeg",
+						"kitchen-lounge-7.jpeg",
+						"kitchen-lounge-8.jpeg",
+						"kitchen-lounge-9.jpeg",
+						"kitchen-lounge-10.jpeg",
+						"kitchen-lounge-11.jpeg",
+						"kitchen-lounge-12.jpeg"
+					]
+				}
+			]
+		},
+		{
+			"pathSegment": "floor-2",
+			"title": "Этаж 2",
+			"titleI18nKey": "floor-2",
+			"imageGroups": [
+				{
+					"pathSegment": "bathroom",
+					"title": "Санузел",
+					"titleI18nKey": "bathroom-sanuzel",
+					"images": [
+						"bathroom-1.jpeg",
+						"bathroom-2.jpeg",
+						"bathroom-3.jpeg",
+						"bathroom-4.jpeg",
+						"bathroom-5.jpeg"
+					]
+				},
+				{
+					"pathSegment": "bedroom-1",
+					"title": "Спальня 1",
+					"titleI18nKey": "bedroom-1",
+					"images": [
+						"bedroom-1.jpeg",
+						"bedroom-2.jpeg",
+						"bedroom-3.jpeg",
+						"bedroom-4.jpeg",
+						"bedroom-5.jpeg",
+						"bedroom-6.jpeg"
+					]
+				},
+				{
+					"pathSegment": "bedroom-2",
+					"title": "Спальня 2",
+					"titleI18nKey": "bedroom-2",
+					"images": [
+						"bedroom-1.jpeg",
+						"bedroom-2.jpeg",
+						"bedroom-3.jpeg",
+						"bedroom-4.jpeg",
+						"bedroom-5.jpeg",
+						"bedroom-6.jpeg",
+						"bedroom-7.jpeg"
+					]
+				},
+				{
+					"pathSegment": "bedroom-3",
+					"title": "Спальня 3",
+					"titleI18nKey": "bedroom-3",
+					"images": [
+						"bedroom-1.jpeg",
+						"bedroom-2.jpeg",
+						"bedroom-3.jpeg",
+						"bedroom-4.jpeg",
+						"bedroom-5.jpeg",
+						"bedroom-6.jpeg",
+						"bedroom-7.jpeg"
+					]
+				},
+				{
+					"pathSegment": "corridor",
+					"title": "Коридор",
+					"titleI18nKey": "corridor",
+					"images": [
+						"corridor-1.jpeg",
+						"corridor-2.jpeg",
+						"corridor-3.jpeg",
+						"corridor-4.jpeg",
+						"corridor-5.jpeg",
+						"corridor-6.jpeg",
+						"corridor-7.jpeg",
+						"corridor-8.jpeg",
+						"corridor-9.jpeg"
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,64 @@
+{
+	"root": "/projects/danish-quarter",
+	"title": "Квартира студия для молодой девушки",
+	"titleI18nKey": "portfolio-card10-title",
+	"address": "ЖК «Датский квартал»",
+	"addressI18nKey": "portfolio-card10-address",
+	"previewImage": "/projects/danish-quarter/kitchen-lounge/kitchen-lounge-8.png",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom",
+			"title": "Ванная",
+			"titleI18nKey": "bathroom",
+			"images": [
+				"bathroom-1.png",
+				"bathroom-2.png",
+				"bathroom-3.png",
+				"bathroom-4.png",
+				"bathroom-5.png"
+			]
+		},
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.png",
+				"bedroom-2.png",
+				"bedroom-3.png",
+				"bedroom-4.png",
+				"bedroom-5.png",
+				"bedroom-6.png",
+				"bedroom-7.png",
+				"bedroom-8.png"
+			]
+		},
+		{
+			"pathSegment": "evening",
+			"title": "Вечер",
+			"titleI18nKey": "evening",
+			"images": [
+				"evening-1.png",
+				"evening-2.png",
+				"evening-3.png"
+			]
+		},
+		{
+			"pathSegment": "kitchen-lounge",
+			"title": "Кухня-гостиная",
+			"titleI18nKey": "kitchen-lounge",
+			"images": [
+				"kitchen-lounge-1.png",
+				"kitchen-lounge-2.png",
+				"kitchen-lounge-3.png",
+				"kitchen-lounge-4.png",
+				"kitchen-lounge-5.png",
+				"kitchen-lounge-6.png",
+				"kitchen-lounge-7.png",
+				"kitchen-lounge-8.png",
+				"kitchen-lounge-9.png",
+				"kitchen-lounge-10.png"
+			]
+		}
+	]
+}

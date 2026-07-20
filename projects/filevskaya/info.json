@@ -1,0 +1,71 @@
+{
+	"root": "/projects/filevskaya",
+	"title": "Двухкомнатная квартира для молодой пары",
+	"titleI18nKey": "portfolio-card4-title",
+	"address": "В доме «позднесталинской» застройки",
+	"addressI18nKey": "portfolio-card4-address",
+	"previewImage": "/projects/filevskaya/kitchen/kitchen-2.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg",
+				"bedroom-6.jpeg",
+				"bedroom-7.jpeg",
+				"bedroom-evening-8.jpeg",
+				"bedroom-evening-9.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg",
+				"hallway-3.jpeg",
+				"hallway-4.jpeg",
+				"hallway-5.jpeg",
+				"hallway-6.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen",
+			"title": "Кухня",
+			"titleI18nKey": "kitchen",
+			"images": [
+				"kitchen-1.jpeg",
+				"kitchen-2.jpeg",
+				"kitchen-3.jpeg",
+				"kitchen-4.jpeg",
+				"kitchen-5.jpeg",
+				"kitchen-evening.jpeg"
+			]
+		},
+		{
+			"pathSegment": "living-room",
+			"title": "Гостиная",
+			"titleI18nKey": "living-room",
+			"images": [
+				"living-room-1.jpeg",
+				"living-room-2.jpeg",
+				"living-room-3.jpeg",
+				"living-room-4.jpeg",
+				"living-room-5.jpeg",
+				"living-room-6.jpeg",
+				"living-room-7.jpeg",
+				"living-room-8.jpeg",
+				"living-room-9.jpeg",
+				"living-room-evening-1.jpeg",
+				"living-room-evening-2.jpeg",
+				"living-room-evening-3.jpeg"
+			]
+		}
+	]
+}

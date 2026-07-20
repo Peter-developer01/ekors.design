@@ -1,0 +1,57 @@
+{
+	"root": "/projects/milov",
+	"title": "Двухэтажный коттедж для семьи из 4-х человек",
+	"titleI18nKey": "portfolio-card1-title",
+	"address": "СНТ «Золотой ранет»",
+	"addressI18nKey": "portfolio-card1-address",
+	"previewImage": "/projects/milov/living-room/living-room-2.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bedroom",
+			"title": "Спальня",
+			"titleI18nKey": "bedroom",
+			"images": [
+				"bedroom-1.jpeg",
+				"bedroom-2.jpeg",
+				"bedroom-3.jpeg",
+				"bedroom-4.jpeg",
+				"bedroom-5.jpeg",
+				"bedroom-6.jpeg",
+				"bedroom-7.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hall",
+			"title": "Холл",
+			"titleI18nKey": "hall",
+			"images": [
+				"hall-1.jpeg",
+				"hall-2.jpeg",
+				"hall-3.jpeg",
+				"hall-4.jpeg",
+				"hall-5.jpeg",
+				"hall-no-wardrobe.jpeg"
+			]
+		},
+		{
+			"pathSegment": "living-room",
+			"title": "Гостиная",
+			"titleI18nKey": "living-room",
+			"images": [
+				"living-room-1.jpeg",
+				"living-room-2.jpeg",
+				"living-room-3.jpeg"
+			]
+		},
+		{
+			"pathSegment": "master-bathroom",
+			"title": "Мастер ванна",
+			"titleI18nKey": "master-bathroom",
+			"images": [
+				"master-bath-1.jpeg",
+				"master-bath-2.jpeg",
+				"master-bath-3.jpeg"
+			]
+		}
+	]
+}

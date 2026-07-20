@@ -1,0 +1,62 @@
+{
+	"root": "/projects/kirpichnaya",
+	"title": "Двухкомнатная квартира в доме хрущевской застройки, для мамы с дочкой",
+	"titleI18nKey": "portfolio-card7-title",
+	"address": "г. Москва, ул. Кирпичная",
+	"addressI18nKey": "portfolio-card7-address",
+	"previewImage": "/projects/kirpichnaya/bedroom-lounge/bedroom-lounge-4.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom",
+			"title": "Санузел",
+			"titleI18nKey": "bathroom-sanuzel",
+			"images": [
+				"bathroom-1.jpeg",
+				"bathroom-2.jpeg",
+				"bathroom-3.jpeg",
+				"bathroom-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom-lounge",
+			"title": "Спальня-гостиная",
+			"titleI18nKey": "bedroom-lounge",
+			"images": [
+				"bedroom-lounge-1.jpeg",
+				"bedroom-lounge-2.jpeg",
+				"bedroom-lounge-3.jpeg",
+				"bedroom-lounge-4.jpeg",
+				"bedroom-lounge-5.jpeg",
+				"bedroom-lounge-6.jpeg",
+				"bedroom-lounge-7.jpeg",
+				"bedroom-lounge-8.jpeg",
+				"bedroom-lounge-9.jpeg",
+				"bedroom-lounge-10.jpeg"
+			]
+		},
+		{
+			"pathSegment": "kitchen",
+			"title": "Кухня",
+			"titleI18nKey": "kitchen",
+			"images": [
+				"kitchen-1.jpeg",
+				"kitchen-2.jpeg",
+				"kitchen-3.jpeg",
+				"kitchen-4.jpeg"
+			]
+		},
+		{
+			"pathSegment": "playroom",
+			"title": "Детская",
+			"titleI18nKey": "playroom",
+			"images": [
+				"playroom-1.jpeg",
+				"playroom-2.jpeg",
+				"playroom-3.jpeg",
+				"playroom-4.jpeg",
+				"playroom-5.jpeg",
+				"playroom-6.jpeg"
+			]
+		}
+	]
+}

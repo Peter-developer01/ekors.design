@@ -1,0 +1,20 @@
+{
+	"root": "/projects/car-showroom",
+	"title": "Реконструкция автосалона",
+	"titleI18nKey": "portfolio-card9-title",
+	"address": "",
+	"addressI18nKey": "portfolio-card9-address",
+	"previewImage": "/projects/car-showroom-1.jpg",
+	"images": [
+		"car-showroom-1.jpg",
+		"car-showroom-2.png",
+		"car-showroom-3.jpg",
+		"car-showroom-4.png",
+		"car-showroom-5.jpg",
+		"car-showroom-6.png",
+		"car-showroom-7.png",
+		"car-showroom-8.png",
+		"car-showroom-9.png",
+		"car-showroom-10.png"
+	]
+}
