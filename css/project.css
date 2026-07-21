@@ -47,7 +47,8 @@
 }
 
 .image-group__title {
-	/* cursive gray */
+	font-style: italic;
+	color: #636363;
 }
 
 .image-list {
