@@ -266,6 +266,10 @@
 		border-radius: 10px;
 	}
 
+	.hero__tagline-decoration {
+		--width: 100%;
+	}
+
 	.about__image {
 		width: 90%;
 		height: 300px;

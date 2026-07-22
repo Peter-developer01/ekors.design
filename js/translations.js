@@ -38,6 +38,8 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 		en: {
 			translation: {
 				"language-switcher": "EN",
+				"made-by": "Made by",
+				"footer-creator": "Peter Kolosov",
 				"home": "Home",
 				"about-me": "About me",
 				"project-creation": "How a design project is created",
@@ -123,6 +125,8 @@ i18next.use(i18nextBrowserLanguageDetector).init({
 		ru: {
 			translation: {
 				"language-switcher": "RU",
+				"made-by": "Разработано",
+				"footer-creator": "Петром Колосовым",
 				"home": "Главная",
 				"about-me": "Обо мне",
 				"project-creation": "Как создаётся дизайн-проект",
