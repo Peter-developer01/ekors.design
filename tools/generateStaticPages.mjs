@@ -200,8 +200,9 @@ async function insertNestedImageGroups(projectRoot, container, nestedImageGroups
 }
 
 async function insertImageGroups(root, projectRoot, container, imageGroups, titleTagName) {
+	const wrapperTag = ["ul", "ol"].includes(container.tagName.toLowerCase()) ? "li" : "div";
 	for (let i = 0; i < imageGroups.length; i++) {
-		const wrapper = document.createElement("div");
+		const wrapper = document.createElement(wrapperTag);
 		wrapper.setAttribute("class", "image-group");
 		const title = document.createElement(titleTagName);
 		title.textContent = imageGroups[i].title;
