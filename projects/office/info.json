@@ -1,0 +1,20 @@
+{
+	"root": "projects/office",
+	"title": "Офис для строительной компании",
+	"titleI18nKey": "portfolio-card14-title",
+	"address": "г. Москва",
+	"addressI18nKey": "portfolio-card14-address",
+	"previewImage": "projects/office/office-3.png",
+	"images": [
+		"office-1.png",
+		"office-2.png",
+		"office-3.png",
+		"office-4.png",
+		"office-5.png",
+		"office-6.png",
+		"office-7.png",
+		"office-8.png",
+		"office-9.png",
+		"office-10.png"
+	]
+}

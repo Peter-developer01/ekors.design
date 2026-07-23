@@ -226,7 +226,26 @@ async function insertImageList(root, container, images) {
 	container.appendChild(list);
 }
 
+function findDuplicates(arr) {
+	const seen = new Set();
+	const duplicates = new Set();
+
+	for (const item of arr) {
+		if (seen.has(item)) {
+			duplicates.add(item);
+		} else {
+			seen.add(item);
+		}
+	}
+
+	return Array.from(duplicates);
+}
+
 async function insertImages(root, projectRoot, container, images, liClassName) {
+	const duplicates = findDuplicates(images);
+	if (duplicates.length > 0) {
+		throw new Error(`Duplicate images found: ${duplicates.join(", ")}`);
+	}
 	const doLiWrap = ["ul", "ol"].includes(container.tagName.toLowerCase());
 	console.log(`Trying to process ${images.length} images...`);
 	for (let i = 0; i < images.length; i++) {

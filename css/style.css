@@ -22,27 +22,11 @@ body {
 	font-family: "Cormorant Infant", sans-serif;
 	font-weight: 400;
 	color: #fff;
-	/* / */
 	background: #2d2518 url("../images/body-bg.png") repeat center center;
 	background-size: cover;
 	background-attachment: fixed;
-	/* / */
 	scroll-behavior: smooth;
 }
-
-/* body::before {
-	background: #2d2518 url("../projects/zarya/evening/evening-1.jpeg") center center;
-	background-size: cover;
-	filter: blur(8px) brightness(0.5);
-	scale: 1.1;
-	content: "";
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
-} */
 
 .accordion {
 	color: #000000;
@@ -281,6 +265,26 @@ body {
 .about__image,
 .about__text {
 	border-radius: 10px;
+}
+
+.invitation__container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.invitation__paragraph {
+	white-space: pre-line;
+	text-align: center;
+	line-height: 1.3;
+}
+
+.invitation__address {
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
 }
 
 .project-creation__steps {

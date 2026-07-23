@@ -49,6 +49,8 @@
 .image-group__title {
 	font-style: italic;
 	color: #636363;
+	font-weight: 100;
+	font-size: 16px;
 }
 
 .image-list {
@@ -99,5 +101,9 @@
 
 	.language-switcher {
 		top: 20px;
+	}
+
+	.page-title {
+		font-size: 24px;
 	}
 }

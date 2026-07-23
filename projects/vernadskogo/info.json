@@ -1,0 +1,64 @@
+{
+	"root": "projects/vernadskogo",
+	"title": "Вернадского",
+	"titleI18nKey": "portfolio-card15-title",
+	"address": "",
+	"addressI18nKey": "portfolio-card15-address",
+	"previewImage": "projects/vernadskogo/kitchen/kitchen-2.jpeg",
+	"imageGroups": [
+		{
+			"pathSegment": "bathroom",
+			"title": "Ванная/туалет",
+			"titleI18nKey": "bathroom",
+			"images": [
+				"bathroom.jpeg",
+				"toilet.jpeg"
+			]
+		},
+		{
+			"pathSegment": "bedroom-cabinet",
+			"title": "Спальня/кабинет",
+			"titleI18nKey": "bedroom-cabinet",
+			"images": [
+				"bedroom-cabinet-1.jpeg",
+				"bedroom-cabinet-2.jpeg",
+				"bedroom-cabinet-3.jpeg",
+				"bedroom-cabinet-4.jpeg",
+				"bedroom-cabinet-5.jpeg",
+				"bedroom-cabinet-6.jpeg",
+				"bedroom-cabinet-7.jpeg",
+				"bedroom-cabinet-8.jpeg"
+			]
+		},
+		{
+			"pathSegment": "hallway",
+			"title": "Прихожая",
+			"titleI18nKey": "hallway",
+			"images": [
+				"hallway-1.jpeg",
+				"hallway-2.jpeg" 
+			]
+		},
+		{
+			"pathSegment": "kitchen",
+			"title": "Кухня",
+			"titleI18nKey": "kitchen",
+			"images": [
+				"kitchen-1.jpeg",
+				"kitchen-2.jpeg",
+				"kitchen-3.jpeg"
+			]
+		},
+		{
+			"pathSegment": "living-room",
+			"title": "Гостиная",
+			"titleI18nKey": "living-room",
+			"images": [
+				"living-room-1.jpeg",
+				"living-room-2.jpeg",
+				"living-room-3.jpeg",
+				"living-room-4.jpeg"
+			]
+		}
+	]
+}
